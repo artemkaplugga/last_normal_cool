@@ -1,0 +1,105 @@
+.home__content__inner{
+    display: flex;
+    margin-bottom: 79px;
+}
+
+.home__content {
+    line-height: 86px;
+    font-size: 84px;
+    font-weight: 700;
+    max-width: 577px;
+}
+
+.home__main {
+    margin-top: 26px;
+    max-width: 500px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #5B5F62;
+    margin-bottom: 44px;
+}
+
+.home__location {
+    max-width: 500px;
+    background-color: white;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 28px;
+    padding-right: 18px;
+    padding-bottom: 18px;
+    border-radius: 38px;
+
+}
+
+.where {
+    font-weight: 500;
+    font-size: 18px;
+    max-width: max-content;
+    line-height: 17px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.geo {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #9498A4;
+}
+
+.home__btn {
+    display: flex;
+    gap: 26px;
+    margin-top: 8px;
+}
+
+.border{
+    border: 1px solid grey;
+    display: flex;
+    margin-left: 34px;
+    color: #EAEAEB;
+    height: 47px;
+    margin-right: 34px;
+    margin-left: 34px;
+
+    
+
+}
+
+.date{
+    font-weight: 500;
+    font-size: 18px;
+    max-width: max-content;
+    line-height: 17px;
+    margin-bottom: 8px;
+    text-align: left;
+
+
+}
+
+.finder{
+    margin-left: auto;
+}
+
+.loupe{
+    display: flex;
+    flex-direction: column-reverse;
+    background: #F66F4D;
+    padding: 13px;
+    border-radius: 31px;
+    transition: 0.3s ease;
+
+
+}
+
+.loupe:hover{
+    background: rgb(231, 105, 231);
+}
+
+.home__img{
+    display: flex;
+    padding-bottom: 53px;
+}
+
+

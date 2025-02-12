@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import 'css/vendor/_reset.css';
+@import 'css/vendor/_global.css';
+
+
+
+@import 'css/components/_home__content.css';
+@import 'css/components/_header.css';
+@import 'css/components/_bottom.css';
+@import 'css/components/_footer.css';
+@import 'css/components/categories.css';
+@import 'css/components/_adventure.css';
+@import 'css/components/_destination.css';
