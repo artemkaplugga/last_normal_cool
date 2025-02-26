@@ -10,3 +10,8 @@ new Swiper('.categories__swiper', {
     spaceBetween: 30,
     loop: true
 });
+
+
+function clearInput() {
+    document.getElementById('emailInput').value = '';
+}
