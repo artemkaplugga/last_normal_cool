@@ -1,10 +1,10 @@
 .body {
+    font-family: 'Manrope';
     background-color: #FAF8ED;
-    font-family: "Inter", serif;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1340px;
     margin: 35px auto;
     padding: 0 15px;
 

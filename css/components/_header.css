@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 74px;
+    font-family: "Sen", serif;
 }
 
 
@@ -15,6 +15,7 @@
 }
 
 .logo {
+    font-family: "Sen", serif;
     font-weight: 700;
     font-size: 20px;
     margin-right: 72px;
@@ -28,17 +29,118 @@
     color: #2E476B;
 }
 
+.where {
+    transition: transform 0.3s ease-in-out;
+}
+
+.where:hover {
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+.date {
+    transition: transform 0.3s ease-in-out;
+}
+
+.date:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+.loupe:hover{
+    transform: scale(1.1);
+}
+
+.home {
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+ 
+}
+
+.home:hover {
+    transition: 0.2s ease;
+    
+    color: #F66F4D;
+   
+
+}
+
+.about__us {
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.about__us:hover {
+    transition: 0.2s ease;
+
+    color: #F66F4D;
+   
+}
+
+.destinations {
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.destinations:hover {
+    transition: 0.2s ease;
+  
+    color: #F66F4D;
+    
+}
+
+.tour {
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.tour:hover {
+    transition: 0.2s ease;
+   
+    color: #F66F4D;
+   
+}
+
+.blog {
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.blog:hover {
+    transition: 0.2s ease;
+   
+    color: #F66F4D;
+ 
+}
+
 .book__now{
     color: #F66F4D;
     display: flex;
+    margin-left: auto; 
     gap: 6px;
     align-items: center;
     padding: 19px 34px;
     border: 2px solid #F66F4D;
     border-radius: 27px;
-    transition: 0.3s ease;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
 }
 
-.book__now:hover{
-    border-color: #880bd1;
+
+
+.book__now:hover {
+    transition: filter 0.3s;
+    transition: 0.3s ease;
+    transform: scale(1.1);
+    filter: invert(50%) sepia(100%) hue-rotate(180deg) saturate(300%);
+    
 }
+
+.header__btn img {
+    
+    transition: filter 0.3s ease;
+    transform: scale(1.1);
+}
+
+.header__btn:hover img {
+    transition: 0.2s ease;
+  
+    filter: invert(50%) sepia(100%) hue-rotate(180deg) saturate(300%);
+    
+}
+

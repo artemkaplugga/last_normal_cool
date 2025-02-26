@@ -3,3 +3,10 @@ new Swiper('.destination__swiper', {
     slidesPerGroup: 1,
     spaceBetween: 25,
 });
+
+new Swiper('.categories__swiper', {
+    slidesPerView: 6,
+    slidesPerGroup: 1,
+    spaceBetween: 30,
+    loop: true
+});

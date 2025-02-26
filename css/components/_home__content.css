@@ -3,6 +3,19 @@
     margin-bottom: 79px;
 }
 
+.home{
+    padding-bottom: 6px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.underline{
+    border: 1px solid #F66F4D;
+    width: 12px;
+    height: 2px;
+}
+
 .home__content {
     line-height: 86px;
     font-size: 84px;
@@ -31,6 +44,11 @@
     border-radius: 38px;
 
 }
+
+.home__title {
+    font-family: "Sen", serif;
+}
+
 
 .where {
     font-weight: 500;

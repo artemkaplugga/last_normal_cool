@@ -26,13 +26,29 @@
     gap: 16px;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease-in-out;
 
 
 }
 
+
+
+
+.img__categories button img{
+    transition: transform 0.2s ease-in-out;
+}
+
+.img__categories button:hover img {
+    transition: 0.2s ease;
+    transform: scale(1.15);
+}
+
 .categories__list {
-    display: flex;
-    gap: 30px;
+   
+    
+    align-items: center; 
+    text-align: center;
+
     margin-bottom: 58px;
     padding-bottom: 32px;
 }
@@ -41,8 +57,35 @@
     font-size: 26px;
     font-weight: 500;
     padding-top: 18px;
-    display: flex;
-    justify-content: center;
     padding-bottom: 20px;
 
+
+}
+
+.categories__item {
+    transition: transform 0.2s ease-in-out;
+}
+
+.categories__item:hover .categories__item__img {
+    filter: brightness(50%);
+}
+
+.categories__item:hover{
+    transition: 0.2s ease;
+    
+}
+
+.visit__btn{
+    display: none;
+    position: absolute;
+    color:white;
+    font-size: 20px;
+    top: 104px;
+    left: 57px;
+    right: 57px;
+}
+
+.categories__item:hover .visit__btn {
+    display: block;
+    color: white;
 }

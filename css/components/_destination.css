@@ -23,6 +23,15 @@
     justify-content: center;
 }
 
+.img__categories2 button img{
+    transition: transform 0.2s ease-in-out;
+}
+
+.img__categories2 button:hover img {
+    transition: 0.2s ease;
+    transform: scale(1.15);
+}
+
 .mountain__title {
     font-size: 24px;
     font-weight: 600;
@@ -80,9 +89,10 @@
 
 .destination__button {
     margin-left: auto;
-    background-color: #2D3134;
-    color: #fff;
+    
+    color: black;
     border-radius: 46px;
+    border: 1px solid black;
     display: flex;
     width: 100px;
     height: 37px;
@@ -92,9 +102,25 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 14px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.destination__button:hover {
+    transition: 0.3s ease;
+    transform: scale(1.1);
+    background-color: #2D3134;
+    color: white;
+}
+
+.destination__button__White:hover {
+    transition: 0.3s ease;
+    transform: scale(1.1);
+    background-color: #2D3134;
+    color: white;
 }
 
 .destination__button__White {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
     margin-left: auto;
     color: black;
     border: 1px solid black;
@@ -131,18 +157,22 @@
     color: #5B5F62;
     margin-bottom: 28px;
 }
-.destination__btns{
+
+
+.destination__btns {
     display: flex;
     gap: 14px;
     font-size: 14px;
     font-weight: 400;
     line-height: 14px;
     justify-content: center;
+    margin-bottom: 51px;
 }
 
 .top__destinations__buttons {
-    background-color: #2D3134;
-    color: white;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    color: black;
+    border: 1px solid black;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -151,7 +181,17 @@
 
 }
 
+.top__destinations__buttons:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    background-color: #2D3134;
+    color: white;
+}
+
+
+
 .top__destinations__buttons--white {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
    
     border: 1px solid black;
     padding-top: 10px;
@@ -164,18 +204,83 @@
     line-height: 14px;
 }
 
-.top__destinations__imgs {
-    max-width: 257px;
-    flex-direction: column;
+.top__destinations__buttons--white:hover {
+    transition: 0.3s ease;
+    transform: scale(1.1);
+    background-color: #2D3134;
+    color: white;
+}
+
+
+.__Vietnam1 {
+    margin-bottom: 26px;
+}
+
+.image__container2 {
+    gap: 13px;
     display: flex;
-    margin-bottom: 26px;
+    flex-direction: column;
 }
 
-.top__destinations__imgs__after {
-  display: flex;
+.imgs {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 37px;
+    margin-bottom: 37px;
+
+
 }
 
-.__Vientam {
-    margin-bottom: 26px;
+
+.fifth__img__container {
+    display: flex;
+    gap: 30px;
 }
 
+.img {
+    position: relative;
+}
+
+.img img {
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.img:hover img {
+    transform: scale(1.04);
+    
+}
+
+.destination__rating {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 12px;
+    position: absolute;
+    top: 27px;
+    left: 27px;
+}
+
+.destination__rating:hover{
+    transition: 0.3s ease;
+    background-color: #2D3134;
+    color: white;
+}
+
+
+
+.destination__vietnam {
+    position: absolute;
+    bottom: 24px;
+    color: white;
+    left: 24px;
+}
+
+.destination__paragraph {
+    position: absolute;
+    bottom: 48px;
+    left: 24px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
