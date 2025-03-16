@@ -33,20 +33,20 @@ submitButton.addEventListener('click', function(event) {
     }
 });
 
+
 const mobileMenuBtn = document.querySelector('.mobile__menu__btn');
 const headerNav = document.querySelector('.header__nav');
 
 mobileMenuBtn.addEventListener('click', () => {
-    mobileMenuBtn.classList.toggle('active');
     headerNav.classList.toggle('active');
-    document.body.classList.toggle('menu-open');
+    mobileMenuBtn.classList.toggle('active');
 });
+
 
 const navLinks = document.querySelectorAll('.header__nav a');
 navLinks.forEach(link => {
     link.addEventListener('click', () => {
-        mobileMenuBtn.classList.remove('active');
         headerNav.classList.remove('active');
-        document.body.classList.remove('menu-open');
+        mobileMenuBtn.classList.remove('active');
     });
 });
