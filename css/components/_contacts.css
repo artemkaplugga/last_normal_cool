@@ -1,0 +1,160 @@
+.contacts__bottom {
+    margin-top: 79px;
+    display: flex;
+
+
+}
+
+.logo__feedbacks {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 20px;
+}
+
+.contacts__paragraph {
+    max-width: 141px;
+}
+
+.enjoying__touring {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #5B5F62;
+    margin-bottom: 40px;
+}
+
+.contact__icons {
+    display: flex;
+    gap: 14px;
+}
+
+.contact__icons img {
+    filter: grayscale(100%);
+
+
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact__icons img:hover {
+    filter: grayscale(0%) brightness(1.5) sepia(1) hue-rotate(-20deg);
+    transform: scale(1.2);
+}
+
+
+
+
+.information__block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: auto;
+    max-width: 754px;
+    width: 100%;
+
+}
+
+.category__inf {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 22px;
+
+}
+
+.resource__link {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;
+
+}
+
+.resource__link:hover {
+    transition: 0.2s ease;
+    color: #F66F4D;
+
+}
+
+.category__inf2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 22px;
+
+}
+
+.adaptive{
+    display: flex;
+}
+
+.get_app_top {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+}
+
+
+
+@media (max-width: 1200px) {
+    .resource__link {
+        display: flex;
+        font-size: 12px;
+        max-width: fit-content;
+
+    }
+}
+
+@media (max-width: 960px) {
+    .category__inf {
+    }
+    .information__block {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px
+    }
+
+}
+
+@media (max-width: 921px) {
+    .resource__link {
+        font-size: 12px;
+
+    }
+
+    .category__inf {
+        margin-right: 80px;
+
+    }
+
+}
+
+@media (max-width: 775px) {
+    .information__block {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        align-items: center;
+        margin-right: auto;
+        max-width: 360px;
+        padding-left: 25px;
+    }
+    .logo__information{
+        object-fit: cover;
+        margin: auto;
+        max-height: 200px;
+        margin-bottom: 20px;
+        align-items: center;
+        text-align: center;
+    
+    }
+    .contacts__bottom{
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .logo__feedbacks{
+        justify-content: center;
+
+    }
+
+    
+}
+

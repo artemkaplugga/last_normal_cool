@@ -1,0 +1,22 @@
+.body {
+    background-color: #FAF8ED;
+    font-family: "Inter", serif;
+    overflow-x: hidden;
+}
+
+.body.menu-open {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 35px auto;
+    padding: 0 15px;
+
+
+
+}
+
+.html{
+    overflow-x: hidden;
+}

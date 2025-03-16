@@ -1,0 +1,157 @@
+.customer__about__us {
+    margin-top: 37px;
+    display: flex;
+    margin-bottom: 66px;
+    gap: 120px;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.customer__img {
+    margin-top: 66px;
+    flex: 0 0 auto;
+}
+
+.customer__border {
+    border: 1px solid #FFD482;
+    display: flex;
+    background: linear-gradient(#FFD482, #FFBE82);
+    max-width: 67px;
+    height: 8px;
+    width: 67px;
+    border-radius: 4px;
+}
+
+.customer__comment {
+    margin-top: 105px;
+    max-width: 600px;
+}
+
+.customer__title {
+    font-size: 56px;
+    font-weight: 600;
+    max-width: 467px;
+    line-height: 66px;
+    margin-bottom: 26px;
+}
+
+.customer__feedback {
+    background-color: #FFFFFF;
+    padding: 32px 34px 0 30px;
+    max-width: 537px;
+    border-radius: 14px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.Andrew__comment {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 473px;
+    color: #5B5F62;
+    margin-bottom: 27px;
+}
+
+.star__png {
+    margin-bottom: 17px;
+}
+
+.andrew__sarma {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.andrew__title {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #5B5F62;
+}
+
+.bottom__content {
+    display: flex;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.buttons__feedback {
+    gap: 16px;
+    display: flex;
+}
+
+.buttons__feedback button img {
+    transition: transform 0.2s ease-in-out;
+}
+
+.buttons__feedback button:hover img {
+    transition: 0.2s ease;
+    transform: scale(1.15);
+}
+
+.bottom__arrows {
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.customer__profile__image {
+    width: 390px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+
+
+@media (max-width: 1035px) {
+    .customer__about__us {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .customer__comment {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+
+    .customer__feedback {
+        width: 100%;
+    }
+
+    .bottom__arrows {
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+   
+
+    .bottom__content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+ 
+
+    .customer__profile__image {
+        width: 300px;
+    }
+}
+
+@media (max-width: 441px) {
+
+    .customer__feedback {
+        padding: 20px 20px 0 20px;
+    }
+
+    
+
+}
