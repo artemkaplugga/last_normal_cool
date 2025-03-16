@@ -123,8 +123,6 @@
 @media (max-width: 1200px) {
   
 
-  
-
     .home__img img {
         max-width: 100%;
     }
@@ -136,21 +134,17 @@
         line-height: 65px;
         max-width: 450px;
     }
-
-   
-
 }
 
 @media (max-width: 768px) {
     .home__content__inner {
         flex-direction: column;
         text-align: center;
-      
+
     }
 
     .home__content {
         font-size: 50px;
-        line-height: 55px;
         max-width: 100%;
     }
 
@@ -173,7 +167,6 @@
     
 
     .home__location {
-        flex-direction: column;
         gap: 15px;
         padding: 15px;
     }
@@ -187,13 +180,8 @@
         text-align: center;
     }
 
-    .finder {
-        margin: 0 auto;
-    }
+   
 
-    .home__btn {
-        justify-content: center;
-    }
 }
 
 

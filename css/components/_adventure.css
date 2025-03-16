@@ -1,14 +1,18 @@
 .adventure {
     display: flex;
     margin-bottom: 32px;
+    gap: 30px;
 }
 
 .adventure__left {
     max-width: 541px;
     width: 100%;
-    margin-right: 156px;
 }
 
+.adventure__left img {
+    max-width: 100%;
+    height: auto;
+}
 
 .adventure__title {
     color: #F66F4D;
@@ -27,7 +31,7 @@
 
 .adventure__text {
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 26px;
     color: #5B5F62;
     max-width: 457px;
@@ -41,10 +45,7 @@
 
 .adventure__item {
     background-color: white;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 26px;
-    padding-left: 26px;
+    padding: 30px 26px;
     border-radius: 14px;
 
 }
@@ -60,4 +61,75 @@
     font-weight: 400;
     line-height: 29px;
     color: #939597;
+}
+
+@media (max-width: 1200px) {
+    .adventure {
+        gap: 20px;
+    }
+
+    .adventure__description {
+        font-size: 48px;
+       
+    }
+
+    .adventure__list {
+        flex-wrap: wrap;
+    }
+
+    .adventure__item {
+        flex: 1;
+    }
+}
+
+@media (max-width: 992px) {
+    .adventure__description {
+        font-size: 42px;
+      
+    }
+
+    .item__count {
+        font-size: 40px;
+    }
+
+    .item__text {
+        font-size: 18px;
+       
+    }
+}
+
+@media (max-width: 768px) {
+    .adventure {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .adventure__description {
+        max-width: 100%;
+    }
+
+    .adventure__text {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .adventure__description {
+        font-size: 36px;
+      
+    }
+
+    .adventure__text {
+        font-size: 14px;
+      
+    }
+
+    .item__count {
+        font-size: 36px;
+    }
+
+    .item__text {
+        font-size: 16px;
+      
+    }
 }
