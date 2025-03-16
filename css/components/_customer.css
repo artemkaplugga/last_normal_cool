@@ -2,6 +2,7 @@
     margin-top: 37px;
     display: flex;
     margin-bottom: 66px;
+<<<<<<< HEAD
     gap: 120px;
     justify-content: space-between;
     padding: 0 15px;
@@ -10,6 +11,13 @@
 .customer__img {
     margin-top: 66px;
     flex: 0 0 auto;
+=======
+}
+
+.customer__img {
+    margin-right: 175px;
+    margin-top: 66px;
+>>>>>>> 7af18b3ae0f34910c31de8924e2bbd25ce2eda9f
 }
 
 .customer__border {
@@ -18,6 +26,7 @@
     background: linear-gradient(#FFD482, #FFBE82);
     max-width: 67px;
     height: 8px;
+<<<<<<< HEAD
     width: 67px;
     border-radius: 4px;
 }
@@ -25,6 +34,17 @@
 .customer__comment {
     margin-top: 105px;
     max-width: 600px;
+=======
+    width: 67;
+    border-radius: 4px;
+  
+}
+
+
+
+.customer__comment {
+    margin-top: 105px;
+>>>>>>> 7af18b3ae0f34910c31de8924e2bbd25ce2eda9f
 }
 
 .customer__title {
@@ -37,10 +57,23 @@
 
 .customer__feedback {
     background-color: #FFFFFF;
+<<<<<<< HEAD
     padding: 32px 34px 0 30px;
     max-width: 537px;
     border-radius: 14px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+=======
+    padding-left: 30px;
+    padding-top: 32px;
+    padding-right: 34px;
+    padding-bottom: 131px;
+    max-width: 537px;
+    max-height: 283px;
+    border-radius: 14px;
+
+
+
+>>>>>>> 7af18b3ae0f34910c31de8924e2bbd25ce2eda9f
 }
 
 .Andrew__comment {
@@ -50,6 +83,11 @@
     max-width: 473px;
     color: #5B5F62;
     margin-bottom: 27px;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 7af18b3ae0f34910c31de8924e2bbd25ce2eda9f
 }
 
 .star__png {
@@ -65,24 +103,41 @@
 
 .andrew__title {
     font-size: 12px;
+<<<<<<< HEAD
     font-weight: 400;
+=======
+    font-weight: 400px;
+>>>>>>> 7af18b3ae0f34910c31de8924e2bbd25ce2eda9f
     line-height: 12px;
     color: #5B5F62;
 }
 
+<<<<<<< HEAD
 .bottom__content {
     display: flex;
     padding-bottom: 40px;
     justify-content: space-between;
     align-items: flex-end;
+=======
+
+.bottom__content {
+    display: flex;
+>>>>>>> 7af18b3ae0f34910c31de8924e2bbd25ce2eda9f
 }
 
 .buttons__feedback {
     gap: 16px;
     display: flex;
+<<<<<<< HEAD
 }
 
 .buttons__feedback button img {
+=======
+
+}
+
+.buttons__feedback button img{
+>>>>>>> 7af18b3ae0f34910c31de8924e2bbd25ce2eda9f
     transition: transform 0.2s ease-in-out;
 }
 
@@ -94,6 +149,7 @@
 .bottom__arrows {
     margin-left: auto;
     margin-top: auto;
+<<<<<<< HEAD
 }
 
 .customer__profile__image {
@@ -154,4 +210,6 @@
 
     
 
+=======
+>>>>>>> 7af18b3ae0f34910c31de8924e2bbd25ce2eda9f
 }

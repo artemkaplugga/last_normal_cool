@@ -33,7 +33,6 @@ submitButton.addEventListener('click', function(event) {
     }
 });
 
-
 const mobileMenuBtn = document.querySelector('.mobile__menu__btn');
 const headerNav = document.querySelector('.header__nav');
 
@@ -42,7 +41,6 @@ mobileMenuBtn.addEventListener('click', () => {
     headerNav.classList.toggle('active');
     document.body.classList.toggle('menu-open');
 });
-
 
 const navLinks = document.querySelectorAll('.header__nav a');
 navLinks.forEach(link => {
