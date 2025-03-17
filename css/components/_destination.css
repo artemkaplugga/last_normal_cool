@@ -62,12 +62,15 @@
     border-radius: 16px;
     border: 2px solid #fff;
     padding: 12px;
+    
 }
 
 .destination__item img {
     width: 100%;
-    align-items: center;
-    max-width: 100%;
+   max-width: 100%;
+   align-items: center;
+    object-fit: cover;
+    
 }
 
 .dollar__person {
@@ -158,7 +161,6 @@
     margin-bottom: 28px;
 }
 
-
 .destination__btns {
     display: flex;
     gap: 14px;
@@ -211,7 +213,6 @@
     color: white;
 }
 
-
 .__Vietnam1 {
     margin-bottom: 26px;
 }
@@ -230,7 +231,6 @@
 
 
 }
-
 
 .fifth__img__container {
     display: flex;
@@ -267,8 +267,6 @@
     color: white;
 }
 
-
-
 .destination__vietnam {
     position: absolute;
     bottom: 24px;
@@ -283,4 +281,27 @@
     color: white;
     font-size: 20px;
     font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  
+    .mountain__title {
+        font-size: 20px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+    .Population__title {
+        flex-direction: column;
+        align-items: center;
+        
+        text-align: center;
+   
+    }
+    .img__categories2{
+        margin-left: 0;
+    }
+
 }

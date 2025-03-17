@@ -34,7 +34,7 @@ new Swiper('.categories__swiper', {
     },
     breakpoints: {
         320: {
-            slidesPerView: 1.2,
+            slidesPerView: 1,
             spaceBetween: 15
         },
         480: {
