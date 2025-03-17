@@ -7,6 +7,20 @@ new Swiper('.destination__swiper', {
         nextEl: "#nextDestinationBtn",
         prevEl: "#prevDestinationBtn",
     },
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 20
+        },
+        576: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+        992: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        }
+    }
 });
 
 new Swiper('.categories__swiper', {
@@ -18,6 +32,28 @@ new Swiper('.categories__swiper', {
         nextEl: "#nextBtn",
         prevEl: "#prevBtn",
     },
+    breakpoints: {
+        320: {
+            slidesPerView: 1.2,
+            spaceBetween: 15
+        },
+        480: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 20
+        },
+        992: {
+            slidesPerView: 4,
+            spaceBetween: 25
+        },
+        1200: {
+            slidesPerView: 6,
+            spaceBetween: 30
+        }
+    }
 });
 
 const emailInput = document.querySelector('.email__address');
