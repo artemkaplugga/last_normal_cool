@@ -164,24 +164,39 @@
 }
 
 @media (max-width: 576px) {
-    
+    .home__content {
+        font-size: 40px;
+    }
 
     .home__location {
-        gap: 15px;
-        padding: 15px;
+     
+        flex-wrap: wrap;
+       
+      
     }
 
     .border {
         display: none;
     }
 
-    .where, .date {
+    
+
+    .where {
+        margin-right: 30px;
+    }
+
+    .finder {
         width: 100%;
-        text-align: center;
+        margin: 20px 0 0 0;
+        display: flex;
+        justify-content: center;
     }
 
    
 
+    .home__btn {
+        gap: 8px;
+    }
 }
 
 
