@@ -228,8 +228,6 @@
     gap: 30px;
     padding-bottom: 37px;
     margin-bottom: 37px;
-
-
 }
 
 .fifth__img__container {
@@ -239,16 +237,18 @@
 
 .img {
     position: relative;
+ 
 }
 
 .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     transition: transform 0.3s ease-in-out;
-    
 }
 
 .img:hover img {
     transform: scale(1.04);
-    
 }
 
 .destination__rating {
@@ -288,20 +288,92 @@
     .mountain__title {
         font-size: 20px;
     }
-
 }
 
+@media (max-width: 992px) {
+   
+
+    .destination__btns {
+        flex-wrap: wrap;
+        gap: 10px;
+    
+    }
+
+    
+}
+
+@media (max-width: 768px) {
+  
+
+    .title__bottom__descriptions {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .destination__paragraph {
+        font-size: 16px;
+        bottom: 36px;
+        left: 16px;
+    }
+    .destination__vietnam {
+        font-size: 14px;
+        bottom: 16px;
+        left: 16px;
+    }
+
+    .destination__rating {
+        font-size: 12px;
+        top: 16px;
+        left: 16px;
+    }
+}
 
 @media (max-width: 576px) {
+    .title__destinations {
+        font-size: 32px; 
+        text-align: center;
+    }
+
+   
+
+    .destination__btns {
+        padding: 0 20px;
+    }
+
+    .top__destinations__buttons,
+    .top__destinations__buttons--white {
+        font-size: 13px;
+        padding: 8px 14px;
+    }
+
+    .destination__rating {
+        font-size: 10px;
+        top: 12px;
+        left: 12px;
+    }
+
+    .destination__vietnam {
+        font-size: 12px;
+        bottom: 12px;
+        left: 12px;
+    }
+
+    .destination__paragraph {
+        font-size: 14px;
+        bottom: 30px;
+        left: 12px;
+    }
+    
+    
+    
+    
+
     .Population__title {
         flex-direction: column;
         align-items: center;
-        
         text-align: center;
-   
     }
     .img__categories2{
         margin-left: 0;
     }
-
 }
